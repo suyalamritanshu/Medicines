@@ -8,13 +8,18 @@ import image2 from '../Assests/2.jpeg'
 import image3 from '../Assests/3.jpeg'
 import image4 from '../Assests/4.jpeg'
 import image5 from '../Assests/5.jpeg'
-import image6 from '../Assests/6.jpeg'
+import image6 from '../Assests/10.jpeg'
 import image7 from '../Assests/7.jpeg'
 import image8 from '../Assests/8.jpeg'
 import image9 from '../Assests/9.jpeg'
 import image10 from '../Assests/10.jpeg'
 import image11 from '../Assests/11.jpeg'
 import image12 from '../Assests/12.jpeg'
+import image13 from '../Assests/13.jpeg'
+import image14 from '../Assests/14.jpeg'
+import image15 from '../Assests/15.jpeg'
+import image16 from '../Assests/16.jpeg'
+import image17 from '../Assests/17.jpeg'
 
 const breakPoints = [
   { width: 1, itemsToShow: 1 },
@@ -44,17 +49,22 @@ function Product() {
           <Item><img src={image6}/> </Item>
           <Item><img src={image7}/> </Item>
           <Item><img src={image8}/> </Item>
-          <Item><img src={image8}/> </Item>
-          <Item><img src={image8}/> </Item>
-          <Item><img src={image8}/> </Item>
-          <Item><img src={image8}/> </Item>
-          <Item><img src={image8}/> </Item>
-          <Item><img src={image8}/> </Item>
-          <Item><img src={image8}/> </Item>
-          <Item><img src="http://www.simpleimageresizer.com/_uploads/photos/aef928fe/16_223x226.jpeg"/> </Item>
-          <Item><img src="https://bit.ly/34cNNTp"/> </Item>
+          <Item><img src={image9}/> </Item>
+          <Item><img src={image10}/> </Item>
+          <Item><img src={image11}/> </Item>
+          <Item><img src={image12}/> </Item>
+          <Item><img src={image13}/> </Item>
+          <Item><img src={image14}/> </Item>
+          <Item><img src={image15}/> </Item>
+          <Item><img src={image16}/> </Item>
+          <Item><img src={image17}/> </Item>
+
+        
+       
 
         </Carousel>
+
+        <p className="flex flex-end">View All Articles</p>
       </div>
     </>
   );

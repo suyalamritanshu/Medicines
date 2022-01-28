@@ -18,7 +18,7 @@ function Banner() {
 		<Carousel.Item>
 		  <img
 			className="d-block w-100"
-			src="http://www.simpleimageresizer.com/_uploads/photos/aef928fe/hello_398x194.jpg"
+			src="https://media.istockphoto.com/photos/female-medical-research-scientist-looks-at-biological-samples-before-picture-id1309776503?b=1&k=20&m=1309776503&s=170667a&w=0&h=NuF3KCp5i_o6i_tqnecS78Eg7QqaYmOV3SQ8tELYrF4="
 			alt="First slide"
 		  />
 		  <Carousel.Caption>
@@ -29,7 +29,7 @@ function Banner() {
 		<Carousel.Item>
 		  <img
 			className="d-block w-100"
-			src="http://www.simpleimageresizer.com/_uploads/photos/aef928fe/hello1_398x194.jpg"
+			src="https://media.istockphoto.com/photos/female-and-male-medical-research-scientists-have-a-conversation-while-picture-id1309776206?b=1&k=20&m=1309776206&s=170667a&w=0&h=pR4SjLzLlg02QbiLj8ZYZ7CY5dHVvyMjikP2I3qCr-8="
 			alt="Second slide"
 		  />
 	  
