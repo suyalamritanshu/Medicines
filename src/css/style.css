@@ -24,6 +24,7 @@ body {
     font-size: 15px;
     font-family: 'Catamaran', sans-serif;
     line-height: 1.80857;
+	overflow-x: hidden;
 }
 
 

@@ -29,13 +29,13 @@ function About(){
 								<div class="about-m">
 									<ul id="banner">
 										<li>
-											<img src="images/about-img-01.jpg" alt=""/>
+											<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQMtUnaNxxKAS_bDUJeq_DW7bBbUJzs8UhpHg&usqp=CAU" alt=""/>
 										</li>
 										<li>
-											<img src="images/about-img-02.jpg" alt=""/>
+											<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQMtUnaNxxKAS_bDUJeq_DW7bBbUJzs8UhpHg&usqp=CAU" alt=""/>
 										</li>
 										<li>
-											<img src="images/about-img-03.jpg" alt=""/>
+											<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQMtUnaNxxKAS_bDUJeq_DW7bBbUJzs8UhpHg&usqp=CAU" alt=""/>
 										</li>
 									</ul>
 								</div>

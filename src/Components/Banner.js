@@ -1,41 +1,57 @@
+/* eslint-disable jsx-a11y/alt-text */
 /* eslint-disable react/style-prop-object */
-import '../css/style.css'
-import '../css/responsive.css'
-import '../css/custom.css'
-import '../css/pogo-slider.min.css'
-import '../css/bootstrap.min.css'
+import React, {useState} from 'react';
+import {Carousel} from "react-bootstrap";
 function Banner() {
+	const [index, setIndex] = useState(0);
+  
+	const handleSelect = (selectedIndex, e) => {
+	  setIndex(selectedIndex);
+	};
     return (
     
-<div class="ulockd-home-slider">
-		<div class="container-fluid">
-			<div class="row">
-				<div class="pogoSlider" id="js-main-slider">
-					<div class="pogoSlider-slide" data-transition="fade" data-duration="1000">
-						<div class="lbox-caption pogoSlider-slide-element">
-							<div class="lbox-details">
-								<h1>Welcome to Zenberg Pharma</h1>
-								<p>India's Trusted Pharmaceutical Company </p>
-								
-							</div>
-						</div>
-					</div>
-					<div class="pogoSlider-slide" data-transition="fade" data-duration="1000" >
-						<div class="lbox-caption pogoSlider-slide-element">
-							<div class="lbox-details">
-								<h1>We are Expert in The Field of Medicine</h1>
-								<p>20 Years of research and expertise</p>
-							</div>
-						</div>
-					</div>
-					
-						
-					
-				</div>
-			</div>
-		</div>
-	</div>
-	
+
+		
+		  
+			
+		<Carousel fade>
+		<Carousel.Item>
+		  <img
+			className="d-block w-100"
+			src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSNbjmnlzLycPBzci1ZnnWb_nivt8HLtto5DA&usqp=CAU"
+			alt="First slide"
+		  />
+		  <Carousel.Caption>
+			<h3>First slide label</h3>
+			<p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+		  </Carousel.Caption>
+		</Carousel.Item>
+		<Carousel.Item>
+		  <img
+			className="d-block w-100"
+			src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTbwOf1C7xxsyEEW3CQDTRJm307tfpbnNkkCw&usqp=CAU"
+			alt="Second slide"
+		  />
+	  
+		  <Carousel.Caption>
+			<h3>Second slide label</h3>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+		  </Carousel.Caption>
+		</Carousel.Item>
+		<Carousel.Item>
+		  <img
+			className="d-block w-100"
+			src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRkgXWUMr_Vcw6KhaHLTy0SNSljgWrMIi5rFQ&usqp=CAU"
+			alt="Third slide"
+		  />
+	  
+		  <Carousel.Caption>
+			<h3>Third slide label</h3>
+			<p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+		  </Carousel.Caption>
+		</Carousel.Item>
+	  </Carousel>
+		 
 	
      )
 }
