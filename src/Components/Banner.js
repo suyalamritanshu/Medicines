@@ -18,7 +18,7 @@ function Banner() {
 		<Carousel.Item>
 		  <img
 			className="d-block w-100"
-			src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSNbjmnlzLycPBzci1ZnnWb_nivt8HLtto5DA&usqp=CAU"
+			src="http://www.simpleimageresizer.com/_uploads/photos/aef928fe/hello_398x194.jpg"
 			alt="First slide"
 		  />
 		  <Carousel.Caption>
@@ -29,7 +29,7 @@ function Banner() {
 		<Carousel.Item>
 		  <img
 			className="d-block w-100"
-			src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTbwOf1C7xxsyEEW3CQDTRJm307tfpbnNkkCw&usqp=CAU"
+			src="http://www.simpleimageresizer.com/_uploads/photos/aef928fe/hello1_398x194.jpg"
 			alt="Second slide"
 		  />
 	  
@@ -41,7 +41,7 @@ function Banner() {
 		<Carousel.Item>
 		  <img
 			className="d-block w-100"
-			src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRkgXWUMr_Vcw6KhaHLTy0SNSljgWrMIi5rFQ&usqp=CAU"
+			src="https://media.istockphoto.com/photos/medicine-doctor-holding-hologram-virtual-interface-electronic-medical-picture-id1274407122?b=1&k=20&m=1274407122&s=170667a&w=0&h=NzJ25QLc-fdSeLg_RJAiMaMJOv5Ghj5aDSrxZ93x3YM="
 			alt="Third slide"
 		  />
 	  
