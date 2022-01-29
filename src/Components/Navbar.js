@@ -18,7 +18,7 @@ function Navbar() {
 				</button>
                 <div class="collapse navbar-collapse justify-content-end" id="navbar-wd">
                     <ul class="navbar-nav">
-                        <li><a class="nav-link" href="/">Home</a></li>
+                        <li><a class="nav-link active" href="/">Home</a></li>
                         <li><a class="nav-link" href="#about">About Us</a></li>
                         <li><a class="nav-link" href="#product">Products</a></li>
 						<li><a class="nav-link" href="#contact">Contact Us</a></li>

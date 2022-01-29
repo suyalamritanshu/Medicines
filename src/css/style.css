@@ -355,7 +355,6 @@ button:focus{
 	left: 0;
 	right: 0;
 	margin: auto;
-	background: url(../../images/img-1.jpg) no-repeat center;
 	border-radius: 10px;
 	transition: ease all 0.3s;
 	transform: translateY(0%) rotate(140deg);
@@ -572,7 +571,6 @@ button:focus{
 .title-box h2::after{
 	content: "";
 	position: absolute;
-	background: url(../../images/tag-line.png)no-repeat center;
 	width: 120px;
 	height: 20px;
 	bottom: 0;

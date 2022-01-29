@@ -41,7 +41,7 @@ function Product() {
           </div>
         </div>
         <Carousel breakPoints={breakPoints}>
-        <Item><a href='/product-1'><img src={image1}/></a> </Item>
+        <Item><a href='/product-1'><img src={image1}/></a>  </Item>
         <Item><a href='/product-2'><img src={image2}/></a> </Item>
         <Item><a href='/product-3'><img src={image3}/></a> </Item>
         <Item><a href='/product-4'><img src={image4}/></a> </Item>
