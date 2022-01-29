@@ -35,29 +35,32 @@ function ProductDetail() {
 
             <section className=" grid grid-cols-1   md:grid-cols-2 xl:grid-cols-3  3xl:grid-cols-5 gap-10 text-center">
 
-                <div >      <Item><a href='/product-1'><img src={image1}/></a> </Item></div>
-                <div ><Item><a href='/product-2'><img src={image2} /></a> </Item>
+                <div >      <Item><a href='/product-1'><img src={image1}/></a> </Item>
+                <h4>CBG-FORTE</h4>
+                </div>
+                <div ><Item><a href='/product-2'><img src={image2} /></a> </Item> <h4> VITSEV</h4>
                 </div>
                 <div >
-                    <Item><a href='/product-3'><img src={image3} /></a> </Item></div>
-                <div > <Item><a href='/product-4'><img src={image4} /></a> </Item></div>
-                <div >      <Item><a href='/product-5'><img src={image5} /></a> </Item></div>
-                <div ><Item><a href='/product-6'><img src={image6} /></a> </Item>
+                    <Item><a href='/product-3'><img src={image3} /></a> </Item> <h4>  REJFAST-PLUS</h4></div>
+                <div > <Item><a href='/product-4'><img src={image4} /></a> </Item> <h4> SEVGLO</h4></div>
+                <div >      <Item><a href='/product-5'><img src={image5} /></a> </Item> <h4>     ZEE-PRAM-PLUS/FORTE</h4></div>
+                <div ><Item><a href='/product-6'><img src={image6} /></a> </Item> <h4>  PAROFEN-S</h4>
                 </div>
                 <div >
-                    <Item><a href='/product-7'><img src={image7} /></a> </Item></div>
-                <div > <Item><a href='/product-8'><img src={image8} /> </a></Item></div>
-                <div >      <Item><a href='/product-9'><img src={image9} /></a> </Item></div>
-                <div ><Item><a href='/product-10'><img src={image10} /></a> </Item>
+                    <Item><a href='/product-7'><img src={image7} /></a> </Item> <h4
+                    > SUPRAZOLE-DSR</h4></div>
+                <div > <Item><a href='/product-8'><img src={image8} /> </a></Item> <h4>     TRYPCET-D</h4></div>
+                <div >      <Item><a href='/product-9'><img src={image9} /></a> </Item> <h4> TRIOTEL-H-40</h4></div>
+                <div ><Item><a href='/product-10'><img src={image10} /></a> </Item> <h4>     PAROFEN-S</h4>
                 </div>
                 <div >
-                    <Item><a href='/product-11'><img src={image11} /> </a></Item></div>
-                <div > <Item><a  href='/product-12'><img src={image12} /></a> </Item></div>
-                <div > <Item><a href='/product-13'><img src={image13} /></a> </Item></div>
-                <div > <Item><a href='/product-14'><img src={image14} /></a> </Item></div>
-                <div > <Item><a href='/product-15'><img src={image15} /></a> </Item></div>
-                <div > <Item><a href='/product-16'><img src={image16} /></a> </Item></div>
-                <div > <Item><a href='/product-17'><img src={image17} /></a> </Item></div>
+                    <Item><a href='/product-11'><img src={image11} /> </a></Item> <h4>  CITRAVIN</h4></div>
+                <div > <Item><a  href='/product-12'><img src={image12} /></a> </Item> <h4>   AZIEL-500</h4></div>
+                <div > <Item><a href='/product-13'><img src={image13} /></a> </Item> <h4>  SAMOCID</h4></div>
+                <div > <Item><a href='/product-14'><img src={image14} /></a> </Item> <h4> ASVIK-CV 625</h4></div>
+                <div > <Item><a href='/product-15'><img src={image15} /></a> </Item> <h4> REJFAST-CD3</h4></div>
+                <div > <Item><a href='/product-16'><img src={image16} /></a> </Item> <h4> REJFAST FORTE</h4></div>
+                <div > <Item><a href='/product-17'><img src={image17} /></a> </Item> <h4> NEOLOL-BETA 20</h4></div>
 
 
 
