@@ -16,11 +16,15 @@ import image14 from '../Assests/14.svg'
 import image15 from '../Assests/15.svg'
 import image16 from '../Assests/16.svg'
 import image17 from '../Assests/17.svg'
+import Navbar from '../Components/Navbar';
+import Footer from '../Components/Footer';
 
 import Item from "../Components/Item";
 function ProductDetail() {
     return (
+        
              <div>
+                 <Navbar />
         <section className="container text-center   p-4 md:py-20 px-5 md:p-10 backgroundColor: to-blue-400">
              <div className="section-intro pb-85px text-center section-heading-margin-less">
         <h2 className="text-4xl  font-medium mt-4">
@@ -31,34 +35,35 @@ function ProductDetail() {
 
             <section className=" grid grid-cols-1   md:grid-cols-2 xl:grid-cols-3  3xl:grid-cols-5 gap-10 text-center">
 
-                <div >      <Item><img src={image1} /> </Item></div>
-                <div ><Item><img src={image2} /> </Item>
+                <div >      <Item><a href='/product-1'><img src={image1}/></a> </Item></div>
+                <div ><Item><a href='/product-2'><img src={image2} /></a> </Item>
                 </div>
                 <div >
-                    <Item><img src={image3} /> </Item></div>
-                <div > <Item><img src={image4} /> </Item></div>
-                <div >      <Item><img src={image5} /> </Item></div>
-                <div ><Item><img src={image6} /> </Item>
+                    <Item><a href='/product-3'><img src={image3} /></a> </Item></div>
+                <div > <Item><a href='/product-4'><img src={image4} /></a> </Item></div>
+                <div >      <Item><a href='/product-5'><img src={image5} /></a> </Item></div>
+                <div ><Item><a href='/product-6'><img src={image6} /></a> </Item>
                 </div>
                 <div >
-                    <Item><img src={image7} /> </Item></div>
-                <div > <Item><img src={image8} /> </Item></div>
-                <div >      <Item><img src={image9} /> </Item></div>
-                <div ><Item><img src={image10} /> </Item>
+                    <Item><a href='/product-7'><img src={image7} /></a> </Item></div>
+                <div > <Item><a href='/product-8'><img src={image8} /> </a></Item></div>
+                <div >      <Item><a href='/product-9'><img src={image9} /></a> </Item></div>
+                <div ><Item><a href='/product-10'><img src={image10} /></a> </Item>
                 </div>
                 <div >
-                    <Item><img src={image11} /> </Item></div>
-                <div > <Item><img src={image12} /> </Item></div>
-                <div > <Item><img src={image13} /> </Item></div>
-                <div > <Item><img src={image14} /> </Item></div>
-                <div > <Item><img src={image15} /> </Item></div>
-                <div > <Item><img src={image16} /> </Item></div>
-                <div > <Item><img src={image17} /> </Item></div>
+                    <Item><a href='/product-11'><img src={image11} /> </a></Item></div>
+                <div > <Item><a  href='/product-12'><img src={image12} /></a> </Item></div>
+                <div > <Item><a href='/product-13'><img src={image13} /></a> </Item></div>
+                <div > <Item><a href='/product-14'><img src={image14} /></a> </Item></div>
+                <div > <Item><a href='/product-15'><img src={image15} /></a> </Item></div>
+                <div > <Item><a href='/product-16'><img src={image16} /></a> </Item></div>
+                <div > <Item><a href='/product-17'><img src={image17} /></a> </Item></div>
 
 
 
             </section>
         </section>
+        <Footer />
         </div>
     )
 }

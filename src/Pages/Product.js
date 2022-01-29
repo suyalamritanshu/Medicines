@@ -41,30 +41,29 @@ function Product() {
           </div>
         </div>
         <Carousel breakPoints={breakPoints}>
-          <Item><img src={image1} /> </Item>
-          <Item><img src={image2} /> </Item>
-          <Item><img src={image3} /> </Item>
-          <Item><img src={image4} /> </Item>
-          <Item><img src={image5} /> </Item>
-          <Item><img src={image6} /> </Item>
-          <Item><img src={image7} /> </Item>
-          <Item><img src={image8} /> </Item>
-          <Item><img src={image9} /> </Item>
-          <Item><img src={image10} /> </Item>
-          <Item><img src={image11} /> </Item>
-          <Item><img src={image12} /> </Item>
-          <Item><img src={image13} /> </Item>
-          <Item><img src={image14} /> </Item>
-          <Item><img src={image15} /> </Item>
-          <Item><img src={image16} /> </Item>
-          <Item><img src={image17} /> </Item>
-
+        <Item><a href='/product-1'><img src={image1}/></a> </Item>
+        <Item><a href='/product-2'><img src={image2}/></a> </Item>
+        <Item><a href='/product-3'><img src={image3}/></a> </Item>
+        <Item><a href='/product-4'><img src={image4}/></a> </Item>
+        <Item><a href='/product-5'><img src={image5}/></a> </Item>
+        <Item><a href='/product-6'><img src={image6}/></a> </Item>
+        <Item><a href='/product-7'><img src={image7}/></a> </Item>
+        <Item><a href='/product-8'><img src={image8}/></a> </Item>
+        <Item><a href='/product-9'><img src={image9}/></a> </Item>
+        <Item><a href='/product-10'><img src={image10}/></a> </Item>
+        <Item><a href='/product-11'><img src={image11}/></a> </Item>
+        <Item><a href='/product-12'><img src={image12}/></a> </Item>
+        <Item><a href='/product-13'><img src={image13}/></a> </Item>
+        <Item><a href='/product-14'><img src={image14}/></a> </Item>
+        <Item><a href='/product-15'><img src={image15}/></a> </Item>
+        <Item><a href='/product-16'><img src={image16}/></a> </Item>
+        <Item><a href='/product-17'><img src={image17}/></a> </Item>
 
 
 
         </Carousel>
 
-        <a className="flex flex-row-reverse md:flex align-middle justify-center mt-4e" href="/product/all">View All Articles</a>
+        <a className="flex flex-row-reverse md:flex align-middle justify-center mt-4" href="/product/all">View All Articles</a>
       </div>
     </>
   );
