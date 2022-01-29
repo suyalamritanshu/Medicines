@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/alt-text */
 import image2 from '../Assests/2.svg'
 import Footer from './Footer';
 import Navbar from './Navbar';
@@ -13,7 +14,7 @@ function Product2(){
         </div>
         <div className='mt-4 '>
             <h3 className='flex justify-self-start mb-4 text-sky-900'>
-            Adipam 10
+            VITSEV
             </h3>
             <h6 className='flex justify-self-start'>  <StarRateIcon style={{ color: "#28328c" }} /> FDA Approved To treat symptoms of major depression.</h6>
             <h6 className='flex justify-self-start'>  <StarRateIcon style={{ color: "#28328c" }} /> Readily absorbed from the GI Tract (oral).</h6>

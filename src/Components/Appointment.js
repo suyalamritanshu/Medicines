@@ -6,12 +6,12 @@ import '../css/bootstrap.min.css'
 
 function Appointment(){
 return(
-    <div id="appointment" class="appointment-main">
+    <div id="work" class="appointment-main">
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-12">
 					<div class="title-box">
-						<h2>Appointment</h2>
+						<h2>Work With Us</h2>
 						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
 					</div>
 				</div>
@@ -84,7 +84,7 @@ return(
 				<div class="col-lg-6 col-md-6">
 					<div class="well-block">
                         <div class="well-title">
-                            <h2>Why Appointment with Us</h2>
+                            <h2>Why Work With Us</h2>
                         </div>
                         <div class="feature-block">
                             <div class="feature feature-blurb-text">

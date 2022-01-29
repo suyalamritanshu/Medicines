@@ -3,7 +3,6 @@ import Navbar from '../Components/Navbar';
 import Banner from '../Components/Banner';
 import About from './About';
 import Product from './Product';
-import Contact from './Contact';
 import Appointment from '../Components/Appointment';
 import Footer from '../Components/Footer';
 import '../css/style.css'
@@ -21,7 +20,6 @@ function Home() {
           <About />
           <Product />
           <Appointment />
-          <Contact />
           <Footer />
       </div>
   )    

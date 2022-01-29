@@ -15,9 +15,9 @@ function Product1() {
             </div>
             <div className='mt-4 '>
                 <h3 className='flex justify-self-start mb-4 text-sky-900'>
-                Adipam 10
+                CBG-FORTE
                 </h3>
-                <h6 className='flex justify-self-start'>  <StarRateIcon style={{ color: "#28328c" }} /> FDA Approved To treat symptoms of major depression.</h6>
+                <h6 className='flex justify-self-start sm:flex sm:justify-self-start'>  <StarRateIcon style={{ color: "#28328c" }} /> FDA Approved To treat symptoms of major depression.</h6>
                 <h6 className='flex justify-self-start'>  <StarRateIcon style={{ color: "#28328c" }} /> Readily absorbed from the GI Tract (oral).</h6>
                 <h6 className='flex justify-self-start'>  <StarRateIcon style={{ color: "#28328c" }} /> Prevents The reuptake of one neurotransmitter, by nerves.</h6>
                 <h6 className='flex justify-self-start'>  <StarRateIcon style={{ color: "#28328c" }} /> Prevents The reuptake of one neurotransmitter, by nerves.</h6>

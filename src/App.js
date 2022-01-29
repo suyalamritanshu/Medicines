@@ -2,7 +2,7 @@ import { Routes, Route } from "react-router-dom";
 import Home from './Pages/Home';
 import About from './Pages/About';
 import Product from './Pages/Product';
-import Contact from './Pages/Contact';
+import Footer from './Components/Footer';
 import ProductDetail from "./Pages/ProdutctDetail";
 import Product1 from './Components/Product1';
 import Product2 from './Components/Product2';
@@ -28,9 +28,9 @@ function App() {
      
      <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="#about" element={<About />} />
-          <Route path="#product" element={<Product />} />
-          <Route path="#contact" element={<Contact />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/product" element={<Product />} />
+          <Route path="/contact" element={<Footer />} />
           <Route path="/product/all" element={<ProductDetail />} />
           <Route path="/product-1" element={<Product1 />} />
           <Route path="/product-2" element={<Product2 />} />
