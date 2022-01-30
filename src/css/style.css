@@ -571,8 +571,9 @@ button:focus{
 .title-box h2::after{
 	content: "";
 	position: absolute;
+	background: url(../../images/images.png)no-repeat center;
 	width: 120px;
-	height: 20px;
+	height: 50px;
 	bottom: 0;
 	left: 0;
 	right: 0;
@@ -583,6 +584,7 @@ button:focus{
 	color: #00cb86;
 	text-decoration: underline;
 }
+
 .about-main-info h2{
 	font-size: 40px;
 	font-family: 'Catamaran', sans-serif;

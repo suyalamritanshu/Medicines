@@ -6,13 +6,14 @@ import '../css/bootstrap.min.css'
 
 function About(){
     return(
-        <div id="about" class="about-box">
+		<div id="about" class="about-box">
 		<div class="about-a1">
 			<div class="container">
 				<div class="row">
 					<div class="col-lg-12">
 						<div class="title-box">
-							<h2>About Us</h2>
+							<h2>About Us </h2>
+						
 						</div>
 					</div>
 				</div>
@@ -29,13 +30,13 @@ function About(){
 								<div class="about-m">
 									<ul id="banner">
 										<li>
-											<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQMtUnaNxxKAS_bDUJeq_DW7bBbUJzs8UhpHg&usqp=CAU" alt=""/>
+											<img src="images/about-img-01.jpg" alt=""/>
 										</li>
 										<li>
-											<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQMtUnaNxxKAS_bDUJeq_DW7bBbUJzs8UhpHg&usqp=CAU" alt=""/>
+											<img src="images/about-img-02.jpg" alt=""/>
 										</li>
 										<li>
-											<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQMtUnaNxxKAS_bDUJeq_DW7bBbUJzs8UhpHg&usqp=CAU" alt=""/>
+											<img src="images/about-img-03.jpg" alt=""/>
 										</li>
 									</ul>
 								</div>

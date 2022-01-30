@@ -18,12 +18,14 @@ import image16 from '../Assests/16.svg'
 import image17 from '../Assests/17.svg'
 import Navbar from '../Components/Navbar';
 import Footer from '../Components/Footer';
+import Header from '../Components/Header';
 
 import Item from "../Components/Item";
 function ProductDetail() {
     return (
         
              <div>
+                 <Header />
                  <Navbar />
         <section className="container text-center   p-4 md:py-20 px-5 md:p-10 backgroundColor: to-blue-400">
              <div className="section-intro pb-85px text-center section-heading-margin-less">

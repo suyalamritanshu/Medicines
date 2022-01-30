@@ -2,6 +2,25 @@
 @tailwind components;
 @tailwind utilities;
 
-a{
-    text-decoration: none;
+::-webkit-scrollbar {
+  background: transparent;
+  width: 10px;
 }
+
+::-webkit-scrollbar-thumb {
+  background: #007BFF;
+  border-radius: 100px;
+}
+
+  
+  ul{
+    text-decoration: none;
+  }
+  
+  li{
+    text-decoration: none;
+  }
+  
+  a{
+    text-decoration: none;
+  }

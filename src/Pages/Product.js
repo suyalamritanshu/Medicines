@@ -63,7 +63,7 @@ function Product() {
 
         </Carousel>
 
-        <a className="flex flex-row-reverse md:flex align-middle justify-center mt-4 text-cyan-900" href="/product/all">View All Products</a>
+        <a className="flex flex-row-reverse md:flex align-middle justify-center mt-4 text-2xl text-cyan-900" href="/product/all">View All Products</a>
       </div>
     </>
   );

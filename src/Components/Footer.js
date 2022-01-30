@@ -58,7 +58,7 @@ function Footer(){
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-12 ">
-					<p class="footer-company-name">Copyright 2020 - <a href="/"> Aadikan Healthcare Pvt.Ltd. all right reserved</a> </p>
+					<p class="footer-company-name">Copyright 2022 - <a href="/"> Zenberg Pharma Pvt. Ltd. All Rights Reserved</a> </p>
 				</div>
 			</div>
 		</div>
