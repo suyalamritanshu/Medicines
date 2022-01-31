@@ -54,7 +54,7 @@ function Footer(){
             </div>
         </div>
     </div>
-    <footer class="footer-box -mb-20">
+    <footer class="footer-box">
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-12 ">

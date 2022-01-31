@@ -24,7 +24,7 @@ import Product17 from './Components/Product17';
 
 function App() {
   return (
-    <div>
+    <div style={{overflowX:"hidden"}}>
      
      <Routes>
           <Route path="/" element={<Home />} />

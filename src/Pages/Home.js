@@ -35,7 +35,7 @@ function Home() {
     };
   });
   return (
-      <div id='home'>
+      <div id='home' >
           <Header />
           <Navbar toggle={toggle} />
       <Dropdown isOpen={isOpen} toggle={toggle} />
