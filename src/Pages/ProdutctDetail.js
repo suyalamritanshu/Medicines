@@ -19,14 +19,37 @@ import image17 from '../Assests/17.svg'
 import Navbar from '../Components/Navbar';
 import Footer from '../Components/Footer';
 import Header from '../Components/Header';
+import {useState, useEffect} from 'react';
+import Dropdown from '../Components/Dropdown';
 
 import Item from "../Components/Item";
 function ProductDetail() {
+    const [isOpen, setIsOpen] = useState(false);
+
+    const toggle = () => {
+      setIsOpen(!isOpen);
+    };
+  
+    useEffect(() => {
+      const hideMenu = () => {
+        if (window.innerWidth > 768 && isOpen) {
+          setIsOpen(false);
+          console.log('i resized');
+        }
+      };
+  
+      window.addEventListener('resize', hideMenu);
+  
+      return () => {
+        window.removeEventListener('resize', hideMenu);
+      };
+    });
     return (
         
              <div>
                  <Header />
-                 <Navbar />
+                 <Navbar toggle={toggle} />
+      <Dropdown isOpen={isOpen} toggle={toggle} />
         <section className="container text-center   p-4 md:py-20 px-5 md:p-10 backgroundColor: to-blue-400">
              <div className="section-intro pb-85px text-center section-heading-margin-less">
         <h2 className="text-4xl  font-medium mt-4">

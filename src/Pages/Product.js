@@ -20,6 +20,8 @@ import image14 from '../Assests/14.svg'
 import image15 from '../Assests/15.svg'
 import image16 from '../Assests/16.svg'
 import image17 from '../Assests/17.svg'
+import {useState, useEffect} from 'react';
+
 
 const breakPoints = [
   { width: 1, itemsToShow: 1 },
@@ -29,6 +31,7 @@ const breakPoints = [
 ];
 
 function Product() {
+
   return (
     <>
 
