@@ -4,12 +4,13 @@
 
 ::-webkit-scrollbar {
   background: transparent;
-  width: 10px;
+  width: 8px;
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #007BFF;
-  border-radius: 100px;
+  background: #EE8021;
+  border-radius: 10px;
+  
 }
 
 

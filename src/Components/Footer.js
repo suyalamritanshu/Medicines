@@ -11,12 +11,12 @@ function Footer(){
         <div class="row">
             <div class="footer-col">
                 <h4>COMPANY INFO</h4>
-                <p>ADIKAN healthcare Pvt. Ltd. is generated sum up the efforts of optimistic group which integrates people betterment of human healthcare from the start up the journey at our company. We want to create a live history to implementing the concept of smart & nice marketing of pharmaceutical products.</p>
+                <p>ZENBERG PHARMACEUTICALS PVT. LTD. established in year, 2018, is an India-based company dealing in pharmaceuticals that are procured from various reputed and GMP - certified manufacturing companies. We are proud to follow quality and care oriented growth policies at our work.</p>
                 <div class="social-links">
-                    <a href="/"><i class="fab fa-facebook-f"></i></a>
-                    <a href="/"><i class="fab fa-twitter"></i></a>
-                    <a href="/"><i class="fab fa-instagram"></i></a>
-                    <a href="/"><i class="fab fa-youtube"></i></a>
+                    <a href="https://m.facebook.com/pg/zenbergpharmaceuticalspLtd/posts/" target="_blank" rel="noreferrer"><i class="fab fa-facebook-f"></i></a>
+                    <a href="https://m.facebook.com/pg/zenbergpharmaceuticalspLtd/posts/" target="_blank" rel="noreferrer"><i class="fab fa-twitter"></i></a>
+                    <a href="https://m.facebook.com/pg/zenbergpharmaceuticalspLtd/posts/" target="_blank" rel="noreferrer"><i class="fab fa-instagram"></i></a>
+                    <a href="https://m.facebook.com/pg/zenbergpharmaceuticalspLtd/posts/" target="_blank" rel="noreferrer"><i class="fab fa-youtube"></i></a>
                 </div>
                 
                 
@@ -45,7 +45,7 @@ function Footer(){
             <div class="footer-col">
                 <h4>CONTACT INFO</h4>
                 <ul>
-                <p>Address - D-71,Sirsilk Colony, Kagaznagar, Adilabad, Sirpur, Telangaba - 504296</p>
+                <p>Address - D-71,  Sirsilk Colony, Kagaznagar, Adilabad, Sirpur, Telangana  - 504296</p>
                 <p>Mail - zenberg.pharma@gmail.com
                     <p>Mail - info@zenbergpharma.com</p>
                 </p>

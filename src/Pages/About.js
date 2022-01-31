@@ -3,6 +3,7 @@ import '../css/responsive.css'
 import '../css/custom.css'
 import '../css/pogo-slider.min.css'
 import '../css/bootstrap.min.css'
+import about from '../Assests/about.jpg';
 
 function About(){
     return(
@@ -29,15 +30,10 @@ function About(){
 							<div class="col-lg-6 col-md-6 col-sm-12">
 								<div class="about-m">
 									<ul id="banner">
-										<li>
-											<img src="images/about-img-01.jpg" alt=""/>
-										</li>
-										<li>
-											<img src="images/about-img-02.jpg" alt=""/>
-										</li>
-										<li>
-											<img src="images/about-img-03.jpg" alt=""/>
-										</li>
+										
+											<img src={about} alt="" />
+									
+										
 									</ul>
 								</div>
 							</div>

@@ -136,21 +136,21 @@ return(
                         </div>
                         <div className="feature-block">
                             <div className="feature feature-blurb-text">
-                                <h4 className="feature-title">24/7 Hours Available</h4>
+                                <h4 className="feature-title">People Who Inspire</h4>
                                 <div className="feature-content">
-                                    <p>Integer nec nisi sed mi hendrerit mattis. Vestibulum mi nunc, ultricies quis vehicula et, iaculis in magnestibulum.</p>
+                                    <p>We believe that our people are at the heart of our company and the key to our future success. At Zenberg, we know that good ideas come from anywhere, and with hard work and dedication, anything is possible.</p>
                                 </div>
                             </div>
                             <div className="feature feature-blurb-text">
-                                <h4 className="feature-title">Experienced Staff Available</h4>
+                                <h4 className="feature-title">Inclusive Culture</h4>
                                 <div className="feature-content">
-                                    <p>Aliquam sit amet mi eu libero fermentum bibendum pulvinar a turpis. Vestibulum quis feugiat risus. </p>
+                                    <p>We’re passionate about bringing together people who are not only talented but who embrace different perspectives and backgrounds. We benefit from the diverse strengths that each of us bring to the workplace and collectively engage the power of our talented people to win as a leader in the pharmaceutical industry. </p>
                                 </div>
                             </div>
                             <div className="feature feature-blurb-text">
-                                <h4 className="feature-title">Low Price & Fees</h4>
+                                <h4 className="feature-title">Commitment To Sustainability</h4>
                                 <div className="feature-content">
-                                    <p>Praesent eu sollicitudin nunc. Cras malesuada vel nisi consequat pretium. Integer auctor elementum nulla suscipit in.</p>
+                                    <p>For us, scientific progress and responsible entrepreneurship go hand in hand, enabling us to create a sustainable future for everyone.</p>
                                 </div>
                             </div>
                         </div>

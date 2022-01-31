@@ -605,11 +605,19 @@ button:focus{
 .about-m ul#banner {
   position: relative;
   width: 100%;
-  height: 450px;
+  height: 400px;
   overflow: hidden;
   margin: 0 auto;
 }
 
+.about-m ul#banner img {
+	position: relative;
+	width: 100%;
+	height: 400px;
+	overflow: hidden;
+	margin: 0 auto;
+  }
+  
 .about-m ul#banner li {
   position: absolute;
   top: 0;
@@ -1375,7 +1383,7 @@ select.form-control:not([size]):not([multiple]){
 }
 
 .footer-box .footer-company-name a{
-	color: #087CFF;
+	color: #EE8021;
 }
 .footer-box .footer-company-name a:hover{
 	color: #fff;
@@ -1483,7 +1491,7 @@ ul{
 	position: absolute;
 	left:0;
 	bottom: -10px;
-	background-color: #087CFF;
+	background-color: #EE8021;
 	height: 2px;
 	box-sizing: border-box;
 	width: 50px;
@@ -1527,7 +1535,7 @@ ul{
 	transition: all 0.5s ease;
 }
 .footer-col .social-links a:hover{
-	color: #24262b;
+	color: #EE8021;
 	background-color: #ffffff;
 }
 
