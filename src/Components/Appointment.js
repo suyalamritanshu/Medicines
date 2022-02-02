@@ -120,7 +120,7 @@ return(
                              
                                 <div className="col-md-12">
                                     <div className="form-group">
-                                        <button type="submit" className="new-btn-d br-2">SEND REQUEST</button>
+                                        <button type="submit" className="new-btn-d br-2">SEND AN ENQUIRY</button>
                                     </div>
                                 </div>
                             </div>

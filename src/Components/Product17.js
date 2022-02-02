@@ -34,32 +34,34 @@ function Product17(){
             <section className="container text-center   p-4 md:py-20 px-5 md:p-10 backgroundColor: to-blue-400">
             <section className=" grid grid-cols-1   md:grid-cols-2 xl:grid-cols-  3xl:grid-cols-5 gap-1 text-center">
             <div className='mt-12'>
-                <img src={image17} />
+                <img src={image17}  height={500} width={400} />
+                <h6 className='flex justify-self-start mt-4 text-red-700 font-medium'>Note: Consult your doctor before consuming any medicine</h6>
             </div>
             <div className='mt-4 '>
                 <h3 className='flex justify-self-start mb-4 text-sky-900'>
                 NEOLOL-BETA 20
                 </h3>
-                <h6 className='flex justify-self-start sm:flex sm:justify-self-start'>  <StarRateIcon style={{ color: "#28328c" }} /> FDA Approved To treat symptoms of major depression.</h6>
-                <br />
-                <h6 className='flex justify-self-start'>  <StarRateIcon style={{ color: "#28328c" }} /> Readily absorbed from the GI Tract (oral).</h6>
-                <br />
+                <h3 className='flex justify-self-start sm:flex sm:justify-self-start text-sky-900 text-xl'>Composition</h3>
+                <h6 className='flex justify-self-start sm:flex sm:justify-self-start'>  <StarRateIcon style={{ color: "#28328c" }} />Propranolol 20mg</h6>
+              
+                <h6 className='flex justify-self-start'>  <StarRateIcon style={{ color: "#28328c" }} /> Clonazepam 0.5mg</h6>
+                <h3 className='flex justify-self-start sm:flex sm:justify-self-start text-sky-900 text-xl'>Used For</h3>
                 
-            <h6 className='flex justify-self-start'>  <StarRateIcon style={{ color: "#28328c" }} /> Prevents The reuptake of one neurotransmitter, by nerves.</h6>
-            <br />
-                <h6 className='flex justify-self-start'>  <StarRateIcon style={{ color: "#28328c" }} /> Prevents The reuptake of one neurotransmitter, by nerves.</h6>
+            <h6 className='flex justify-self-start'>  <StarRateIcon style={{ color: "#28328c" }} /> Elevated blood pressure</h6>
+        
+                <h6 className='flex justify-self-start'>  <StarRateIcon style={{ color: "#28328c" }} /> Treatment of panic disorder</h6>
 
-                <br />
-                <h6 className='flex justify-self-start sm:flex sm:justify-self-start'>  <StarRateIcon style={{ color: "#28328c" }} /> FDA Approved To treat symptoms of major depression.</h6>
-                <br />
-                <h6 className='flex justify-self-start'>  <StarRateIcon style={{ color: "#28328c" }} /> Readily absorbed from the GI Tract (oral).</h6>
-                <br />
+       
+                <h6 className='flex justify-self-start sm:flex sm:justify-self-start'>  <StarRateIcon style={{ color: "#28328c" }} /> Treatment of seizure disorder</h6>
+          
+                <h6 className='flex justify-self-start'>  <StarRateIcon style={{ color: "#28328c" }} /> Hypertension</h6>
+          
                 
-            <h6 className='flex justify-self-start'>  <StarRateIcon style={{ color: "#28328c" }} /> Prevents The reuptake of one neurotransmitter, by nerves.</h6>
-            <br />
-                <h6 className='flex justify-self-start'>  <StarRateIcon style={{ color: "#28328c" }} /> Prevents The reuptake of one neurotransmitter, by nerves.</h6>
-                <button className='flex justify-self-center bg-sky-900 rounded-md text-gray-50 p-2'>Obessive-compulsive disorder
-Major depression | Generalized anxiety disorder</button>
+            <h6 className='flex justify-self-start'>  <StarRateIcon style={{ color: "#28328c" }} /> Fast heart beat</h6>
+    
+                <h6 className='flex justify-self-start'>  <StarRateIcon style={{ color: "#28328c" }} /> Migraine</h6>
+
+
             </div>
         </section>
         </section>

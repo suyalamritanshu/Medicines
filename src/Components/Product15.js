@@ -34,32 +34,50 @@ function Product15(){
         <section className="container text-center   p-4 md:py-20 px-5 md:p-10 backgroundColor: to-blue-400">
         <section className=" grid grid-cols-1   md:grid-cols-2 xl:grid-cols-  3xl:grid-cols-5 gap-1 text-center">
         <div className='mt-12'>
-            <img src={image15} />
+            <img src={image15} height={500} width={400} />
+            <h6 className='flex justify-self-start mt-4 text-red-700 font-medium'>Note: Consult your doctor before consuming any medicine</h6>
         </div>
         <div className='mt-4 '>
             <h3 className='flex justify-self-start mb-4 text-sky-900'>
             REJFAST-CD3
             </h3>
-            <h6 className='flex justify-self-start sm:flex sm:justify-self-start'>  <StarRateIcon style={{ color: "#28328c" }} /> FDA Approved To treat symptoms of major depression.</h6>
-                <br />
-                <h6 className='flex justify-self-start'>  <StarRateIcon style={{ color: "#28328c" }} /> Readily absorbed from the GI Tract (oral).</h6>
-                <br />
+            <h3 className='flex justify-self-start sm:flex sm:justify-self-start text-sky-900 text-xl'>Composition</h3>
+            <h6 className='flex justify-self-start sm:flex sm:justify-self-start'>  <StarRateIcon style={{ color: "#28328c" }} />Alpha lipoic acid 200 MG</h6>
+              
+                <h6 className='flex justify-self-start'>  <StarRateIcon style={{ color: "#28328c" }} /> Benfotiamine 150 MG</h6>
+               
                 
-            <h6 className='flex justify-self-start'>  <StarRateIcon style={{ color: "#28328c" }} /> Prevents The reuptake of one neurotransmitter, by nerves.</h6>
-            <br />
-                <h6 className='flex justify-self-start'>  <StarRateIcon style={{ color: "#28328c" }} /> Prevents The reuptake of one neurotransmitter, by nerves.</h6>
+            <h6 className='flex justify-self-start'>  <StarRateIcon style={{ color: "#28328c" }} /> Calcium carbonate 500 MG</h6>
+      
+                <h6 className='flex justify-self-start'>  <StarRateIcon style={{ color: "#28328c" }} /> Chromium picolinate 200 MCG</h6>
 
-                <br />
-                <h6 className='flex justify-self-start sm:flex sm:justify-self-start'>  <StarRateIcon style={{ color: "#28328c" }} /> FDA Approved To treat symptoms of major depression.</h6>
-                <br />
-                <h6 className='flex justify-self-start'>  <StarRateIcon style={{ color: "#28328c" }} /> Readily absorbed from the GI Tract (oral).</h6>
-                <br />
+        
+                <h6 className='flex justify-self-start sm:flex sm:justify-self-start'>  <StarRateIcon style={{ color: "#28328c" }} /> Folic acid 1.5 MG</h6>
+             
+                <h6 className='flex justify-self-start'>  <StarRateIcon style={{ color: "#28328c" }} />Inositol 100 MG</h6>
+             
                 
-            <h6 className='flex justify-self-start'>  <StarRateIcon style={{ color: "#28328c" }} /> Prevents The reuptake of one neurotransmitter, by nerves.</h6>
-            <br />
-                <h6 className='flex justify-self-start'>  <StarRateIcon style={{ color: "#28328c" }} /> Prevents The reuptake of one neurotransmitter, by nerves.</h6>
-            <button className='flex justify-self-center bg-sky-900 rounded-md text-gray-50 p-2'>Obessive-compulsive disorder
-Major depression | Generalized anxiety disorder</button>
+            <h6 className='flex justify-self-start'>  <StarRateIcon style={{ color: "#28328c" }} /> Methylcobalamin 1500 MCG</h6>
+       
+                <h6 className='flex justify-self-start'>  <StarRateIcon style={{ color: "#28328c" }} /> Pyridoxine 3 MG</h6>
+                <h6 className='flex justify-self-start'>  <StarRateIcon style={{ color: "#28328c" }} /> Vitamin D3 1000 IU</h6>
+                <h3 className='flex justify-self-start sm:flex sm:justify-self-start text-sky-900 text-xl'>Used For</h3>
+                <h6 className='flex justify-self-start'>  <StarRateIcon style={{ color: "#28328c" }} /> Nerve damage</h6>
+                <h6 className='flex justify-self-start'>  <StarRateIcon style={{ color: "#28328c" }} /> Numbness and tingling</h6>
+                <h6 className='flex justify-self-start'>  <StarRateIcon style={{ color: "#28328c" }} /> Pain in neurological disorders</h6>
+                <h6 className='flex justify-self-start'>  <StarRateIcon style={{ color: "#28328c" }} />  Arthritis</h6>
+                <h6 className='flex justify-self-start'>  <StarRateIcon style={{ color: "#28328c" }} /> High cholesterol</h6>
+                <h6 className='flex justify-self-start'>  <StarRateIcon style={{ color: "#28328c" }} /> Panic disorder</h6>
+                <h6 className='flex justify-self-start'>  <StarRateIcon style={{ color: "#28328c" }} /> Weight loss</h6>
+                <h6 className='flex justify-self-start'>  <StarRateIcon style={{ color: "#28328c" }} /> Vitamin d deficiency</h6>
+
+                <h6 className='flex justify-self-start'>  <StarRateIcon style={{ color: "#28328c" }} /> Acid indigestion</h6>
+
+                <h6 className='flex justify-self-start'>  <StarRateIcon style={{ color: "#28328c" }} /> Alzheimer's disease</h6>
+
+                
+
+
         </div>
     </section>
     </section>
