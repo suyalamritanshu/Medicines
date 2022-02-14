@@ -1585,7 +1585,7 @@ ul {
   position: absolute;
   top: 61%;
   width: 50%;
-  left: 28%;
+  left: 34%;
   display: flex;
   align-items: flex-start;
   justify-content: space-between;
@@ -1636,7 +1636,7 @@ ul {
 		position: absolute;
 		top: 39%;
 		width: 100%;
-		left: 10%;
+		left: 15%;
 		display: flex;
 		align-items: flex-start;
 		justify-content: space-between;

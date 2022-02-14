@@ -10,7 +10,7 @@ const Dropdown = ({ isOpen, toggle }) => {
     <div
       className={
         isOpen
-          ? 'grid grid-rows-4  flex-row-reverse items-center bg-white'
+          ? 'grid grid-rows-4  flex-row-reverse items-center bg-white z-auto'
           : 'hidden'
       }
       onClick={toggle}
