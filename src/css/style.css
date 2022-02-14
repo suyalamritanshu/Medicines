@@ -1553,40 +1553,45 @@ ul {
 .banner123 img {
   position: relative;
   width: 100%;
-  height: 60%;
+  height: 50%;
 }
 
 .heading {
-  color: blue;
+  color: white;
   position: absolute;
-  top: 47%;
-  left: 5%;
+  top: 42%;
+  left: 40%;
   text-align: center;
-  font-size: 2.5rem;
+  font-size: 4.0rem;
   font-weight: bold;
 }
 
+
+
 .heading123 {
-  color: blue;
+  color: white;
   position: absolute;
-  top: 54%;
+  top: 51%;
   font-weight: bold;
-  left: 5%;
+  left: 28%;
   text-align: center;
-  font-size: 2.5rem;
+  font-size: 4.0rem;
+  
 }
 
 .para {
-  color: blue;
+  color: white;
+
   position: absolute;
-  top: 64%;
+  top: 61%;
   width: 50%;
-  left: 5%;
+  left: 28%;
   display: flex;
   align-items: flex-start;
   justify-content: space-between;
   text-align: center;
-  font-size: 1.2rem;
+  font-size: 1.8rem;
+  font-weight: 600;
 }
 
 .btn1 {
@@ -1606,36 +1611,38 @@ ul {
 
 @media (max-width: 574px) {
 	.heading {
-		color: blue;
+		color: #fff;
 		position: absolute;
 		top: 31%;
-		left: 2%;
+		left: 30%;
 		text-align: center;
-		font-size: 0.8rem;
+		font-size: 1.8rem;
 		font-weight: bold;
 	  }
 	  
 	  .heading123 {
-		color: blue;
+      color: #fff;
 		position: absolute;
-		top: 33%;
-		left: 2%;
+		top: 35%;
+		left: 10%;
 		font-weight: bold;
 		text-align: center;
-		font-size: 0.8rem;
+		font-size: 1.8rem;
 	  }
 	  
 	  .para {
-		color: blue;
+      color: #fff;
+
 		position: absolute;
-		top: 36%;
-		width: 50%;
-		left: -1.7%;
+		top: 39%;
+		width: 100%;
+		left: 10%;
 		display: flex;
 		align-items: flex-start;
 		justify-content: space-between;
 		text-align: center;
-		font-size: 0.8rem;
+		font-size: 1.0rem;
+    font-weight: 600;
 	  }
 	  
 
