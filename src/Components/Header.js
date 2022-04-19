@@ -11,9 +11,9 @@ function Header() {
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-6">
-					<div class="left-top">
+					{/* <div class="left-top">
 						<div class="mail-b "><a href="/"><i class="fa fa-envelope-o mr-3" aria-hidden="true"></i>zenberg.pharma@gmail.com</a></div>
-					</div>
+					</div> */}
 				</div>
 				<div class="col-lg-6">
 					<div class="wel-nots">

@@ -12,6 +12,7 @@ import '../css/responsive.css'
 import '../css/custom.css'
 import '../css/pogo-slider.min.css'
 import '../css/bootstrap.min.css'
+import Manufacturing from './Manufacturing';
 
 function Home() {
   const [isOpen, setIsOpen] = useState(false);
@@ -43,6 +44,7 @@ function Home() {
           <About />
           <Product />
           <Appointment />
+          <Manufacturing />
           <Footer />
       </div>
   )    

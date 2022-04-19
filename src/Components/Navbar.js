@@ -12,7 +12,10 @@ const Navbar = ({ toggle }) => {
             className=' fixed flex justify-between items-center h-16 bg-white text-black relative shadow-sm'
             role='navigation'
         >
-            <a className="navbar-brand ml-36" href="/"><img src={image} alt="zenberg logo" /></a>
+            <a className="navbar-brand ml-36" href="/"><img src={image} alt="zenberg logo"   />
+            <i className='care_logo'>Care for Smile</i>
+            
+            </a>
             <div className='px-4 cursor-pointer md:hidden' onClick={toggle}>
                 <svg
                     className='w-8 h-8'

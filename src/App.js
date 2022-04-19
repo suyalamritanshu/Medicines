@@ -21,6 +21,7 @@ import Product14 from './Components/Product14';
 import Product15 from './Components/Product15';
 import Product16 from './Components/Product16';
 import Product17 from './Components/Product17';
+import Manufacturing from "./Pages/Manufacturing";
 
 function App() {
   return (
@@ -30,6 +31,8 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/product" element={<Product />} />
+          <Route path="/partners" element={<Manufacturing />} />
+
           <Route path="/contact" element={<Footer />} />
           <Route path="/product/all" element={<ProductDetail />} />
           <Route path="/product-1" element={<Product1 />} />
