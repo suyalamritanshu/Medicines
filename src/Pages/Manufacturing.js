@@ -7,8 +7,7 @@ import image1 from '../Assests/logo10.png'
 import image2 from '../Assests/unnamed.jpg'
 import image3 from '../Assests/download.jpg'
 import image4 from '../Assests/download1.png'
-import image5 from '../Assests/download1.png'
-import image6 from '../Assests/download1.png'
+import image5 from '../Assests/life.jpeg'
 
 
 
@@ -16,7 +15,7 @@ const breakPoints = [
   { width: 1, itemsToShow: 1 },
   { width: 550, itemsToShow: 2 },
   { width: 768, itemsToShow: 3 },
-  { width: 1200, itemsToShow: 4 },
+  { width: 1200, itemsToShow: 5 },
 ];
 
 function Manufacturing() {
@@ -32,21 +31,26 @@ function Manufacturing() {
             </div>
           </div>
         </div>
-        <Carousel breakPoints={breakPoints}>
-        <Item><a href='/product-1'><img src={image1}/></a>  </Item>
-        <Item><a href='/product-2'><img src={image2}/></a> </Item>
-        <Item><a href='/product-3'><img src={image3}/></a> </Item>
-        <Item><a href='/product-4'><img src={image4}/></a> </Item>
-        <Item><a href='/product-5'><img src={image5}/></a> </Item>
-        <Item><a href='/product-5'><img src={image6}/></a> </Item>
+
+        <div className="manufactur_image_div">
+          <div className="manufactur_image_div_1">
+            <img src={image1} height='500px' width='300px' />
+            <img src={image2} height='500px' width='300px' />
+            <img src={image3} height='500px' width='300px' />
+          </div>
+          <div className="manufactur_image_div_2">
+            <img src={image4} height='500px' width='300px' />
+            <img src={image5} height='500px' width='300px' />
+          </div>
+        </div>
 
 
 
 
 
-        </Carousel>
 
-             </div>
+
+      </div>
     </>
   );
 }
